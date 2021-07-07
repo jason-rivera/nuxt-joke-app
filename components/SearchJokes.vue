@@ -11,7 +11,7 @@ export default {
   name: 'SearchJokes',
   data() {
     return {
-      text: ""
+      text: ''
     }
   },
   methods: {

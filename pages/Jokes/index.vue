@@ -18,7 +18,7 @@ export default {
   },
   data() {
     return {
-      jokes: []
+      jokes: [],
     }
   },
   async created() {
@@ -29,6 +29,7 @@ export default {
     }
     
     try {
+      var text = "";
       const res = await axios.get(`https://icanhazdadjoke.com/search?term=${text}`, config);
       
       this.jokes = res.data.results;
@@ -39,18 +40,18 @@ export default {
   methods: {
     async searchText(text) {
       const config = {
-      headers: {
-        'Accept': 'application/json'
+        headers: {
+          'Accept': 'application/json'
+        }
       }
-    }
-    
-    try {
-      const res = await axios.get('https://icanhazdadjoke.com/search', config);
       
-      this.jokes = res.data.results;
-    } catch (err) {
-      console.log(err);
-    }
+      try {
+        const res = await axios.get(`https://icanhazdadjoke.com/search?term=${text}`, config);
+        
+        this.jokes = res.data.results;
+      } catch (err) {
+        console.log(err);
+      }
     }
   },
   head() {
