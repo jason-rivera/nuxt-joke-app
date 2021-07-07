@@ -6,7 +6,7 @@ A small web application to demonstrate my knowledge with Nuxt.js and Vue.js. Thi
 
 ### Preview:
 
-![Alt Text](link)
+![Alt Text](https://media.giphy.com/media/XXu4dVcpHfjb8UHqRd/giphy.gif)
 
 ### Technologies:
 - Nuxt.js
