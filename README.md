@@ -1,3 +1,5 @@
+# Nuxt Joke App
+
 ### Overview:
 
 A small web application to demonstrate my knowledge with Nuxt.js and Vue.js. This app utilizes the icanhazdadjoke.com API.
