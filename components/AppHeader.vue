@@ -50,6 +50,7 @@ export default {
 
 .header ul {
   display: flex;
+  list-style-type: none;
 }
 
 .header a {

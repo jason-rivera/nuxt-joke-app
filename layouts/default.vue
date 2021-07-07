@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <AppHeader />
     <Nuxt/>
   </div>
@@ -15,6 +15,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+body {
+  padding: 100px;
+}
 </style>
